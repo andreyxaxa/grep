@@ -1,0 +1,17 @@
+2025-01-13 10:12:01 INFO  Starting server on port 8080
+2025-01-13 10:12:02 INFO  Loading configuration from /etc/server/config.yaml
+2025-01-13 10:12:03 DEBUG Checking database connection
+2025-01-13 10:12:04 INFO  Database connection established
+2025-01-13 10:12:05 WARN  Slow response from auth service (210 ms)
+2025-01-13 10:12:06 INFO  User login: user_id=431
+2025-01-13 10:12:07 ERROR Failed to read session token
+2025-01-13 10:12:08 DEBUG Refreshing cache entries
+2025-01-13 10:12:09 INFO  Cache refreshed successfully
+2025-01-13 10:12:10 ERROR Unable to open log file for writing
+2025-01-13 10:12:11 WARN  Retrying operation (attempt 1)
+2025-01-13 10:12:12 WARN  Retrying operation (attempt 2)
+2025-01-13 10:12:13 ERROR Database timeout while processing request
+2025-01-13 10:12:14 INFO  Received shutdown signal
+2025-01-13 10:12:15 INFO  Stopping worker threads
+2025-01-13 10:12:16 INFO  Closing database connection
+2025-01-13 10:12:17 INFO  Server stopped gracefully

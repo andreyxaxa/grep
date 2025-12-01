@@ -28,8 +28,17 @@
 ```
 go run cmd/app/main.go -n -C 2 ".000" examples/env.txt
 ```
+```
+go run cmd/app/main.go -i -n "info" examples/server.log
+```
 
 Можно выполнить `go build -o grep cmd/app/main.go` и запускать красивее:
 ```
 grep -i "WHILE" examples/environment.txt
+```
+```
+cat examples/server.log | grep -i "error"
+```
+```
+grep -c -i "error" examples/server.log
 ```
